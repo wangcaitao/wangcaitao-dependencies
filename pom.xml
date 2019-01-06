@@ -6,7 +6,7 @@
 
     <groupId>cn.wangcaitao</groupId>
     <artifactId>wangcaitao-dependencies</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -14,7 +14,7 @@
         <wangcaitao-common.version>1.0.0</wangcaitao-common.version>
         <wangcaitao-global-exception-handler.version>1.0.0</wangcaitao-global-exception-handler.version>
         <wangcaitao-starter-swagger.version>2.0.0</wangcaitao-starter-swagger.version>
-        <wangcaitao-starter-fastjson.version>2.0.0</wangcaitao-starter-fastjson.version>
+        <wangcaitao-starter-fastjson.version>3.0.0</wangcaitao-starter-fastjson.version>
         <!-- wangcaitao end -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
