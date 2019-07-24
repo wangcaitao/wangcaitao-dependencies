@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.wangcaitao</groupId>
+    <groupId>com.wangcaitao</groupId>
     <artifactId>wangcaitao-dependencies</artifactId>
-    <version>1.0.0</version>
+    <version>2.0.0</version>
     <packaging>pom</packaging>
 
     <name>wangcaitao-dependencies</name>
@@ -25,7 +25,7 @@
         <developer>
             <name>wangcaitao</name>
             <email>wangcaitao@aliyun.com</email>
-            <url>http://wangcaitao.cn</url>
+            <url>https://blog.wangcaitao.com</url>
         </developer>
     </developers>
 
@@ -33,16 +33,10 @@
         <url>https://github.com/wangcaitao/wangcaitao-dependencies</url>
         <connection>scm:git:https://github.com/wangcaitao/wangcaitao-dependencies.git</connection>
         <developerConnection>scm:git:https://github.com/wangcaitao/wangcaitao-dependencies.git</developerConnection>
-        <tag>1.0.0</tag>
+        <tag>2.0.0</tag>
     </scm>
 
     <properties>
-        <!-- wangcaitao start -->
-        <wangcaitao-common.version>1.0.0</wangcaitao-common.version>
-        <wangcaitao-global-exception-handler.version>1.0.0</wangcaitao-global-exception-handler.version>
-        <wangcaitao-starter-swagger.version>2.0.0</wangcaitao-starter-swagger.version>
-        <wangcaitao-starter-fastjson.version>3.0.0</wangcaitao-starter-fastjson.version>
-        <!-- wangcaitao end -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <commons-lang3.version>3.8</commons-lang3.version>
@@ -63,32 +57,11 @@
         <mybatis-plus-boot-starter.version>3.0.6</mybatis-plus-boot-starter.version>
         <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
         <springfox-swagger-ui.version>2.9.2</springfox-swagger-ui.version>
+        <commons-io.version>2.6</commons-io.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
-            <!-- wangcaitao start -->
-            <dependency>
-                <groupId>cn.wangcaitao</groupId>
-                <artifactId>wangcaitao-common</artifactId>
-                <version>${wangcaitao-common.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.wangcaitao</groupId>
-                <artifactId>wangcaitao-global-exception-handler</artifactId>
-                <version>${wangcaitao-global-exception-handler.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.wangcaitao</groupId>
-                <artifactId>wangcaitao-starter-swagger</artifactId>
-                <version>${wangcaitao-starter-swagger.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.wangcaitao</groupId>
-                <artifactId>wangcaitao-starter-fastjson</artifactId>
-                <version>${wangcaitao-starter-fastjson.version}</version>
-            </dependency>
-            <!-- wangcaitao end -->
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
@@ -186,6 +159,11 @@
                 <version>${springfox-swagger-ui.version}</version>
             </dependency>
             <!-- swagger end -->
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons-io.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
