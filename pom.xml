@@ -66,6 +66,7 @@
         <springfox-swagger-ui.version>2.9.2</springfox-swagger-ui.version>
         <commons-io.version>2.6</commons-io.version>
         <user-agent-utils.version>1.21</user-agent-utils.version>
+        <qiniu-java-sdk.version>7.2.29</qiniu-java-sdk.version>
     </properties>
 
     <dependencyManagement>
@@ -193,6 +194,11 @@
                 <groupId>eu.bitwalker</groupId>
                 <artifactId>UserAgentUtils</artifactId>
                 <version>${user-agent-utils.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.qiniu</groupId>
+                <artifactId>qiniu-java-sdk</artifactId>
+                <version>${qiniu-java-sdk.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
