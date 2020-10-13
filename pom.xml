@@ -52,7 +52,7 @@
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
         <httpclient.version>4.5.12</httpclient.version>
         <lombok.version>1.18.12</lombok.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <jackson.version>2.11.0</jackson.version>
         <mysql-connector-java.version>8.0.20</mysql-connector-java.version>
         <jest.version>5.3.3</jest.version>
