@@ -64,7 +64,7 @@
         <mybatis-plus-boot-starter.version>3.3.1</mybatis-plus-boot-starter.version>
         <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
         <springfox-swagger-ui.version>2.9.2</springfox-swagger-ui.version>
-        <commons-io.version>2.6</commons-io.version>
+        <commons-io.version>2.7</commons-io.version>
         <user-agent-utils.version>1.21</user-agent-utils.version>
         <qiniu-java-sdk.version>7.2.29</qiniu-java-sdk.version>
     </properties>
