@@ -50,7 +50,7 @@
         <commons-logging.version>1.2</commons-logging.version>
         <slf4j-api.version>1.7.30</slf4j-api.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
-        <httpclient.version>4.5.12</httpclient.version>
+        <httpclient.version>4.5.13</httpclient.version>
         <lombok.version>1.18.12</lombok.version>
         <junit.version>4.12</junit.version>
         <jackson.version>2.11.0</jackson.version>
